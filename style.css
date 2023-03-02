@@ -1,0 +1,81 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/6d/78/71/6d78711d7c8438405ee8a5a50114f9ac.gif);
+    background-size: cover;
+}
+
+.a {
+    color: white;
+    width: 350px;
+    height: 300px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    background-color: rgb(150, 214, 252);
+    background: rgba( 0, 0, 0, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.50 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+input[type=number] {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+}
+
+input[type=number]:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    background: #1E90FF;
+    color: #fff;
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 15px;
+    border: 0;
+    padding: 10px 13px 8px 13px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+input[type=submit]:hover{
+   transform: scale(1.1);  
+   transition: all 0.2s;
+   background: #4169E1;
+
+}
+
+.resultado {
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: 'Tilt Warp', sans-serif;
+    position: relative; 
+    display: inline-block; 
+}
+
+h1 {
+    color: #FFFF00;
+  
+}
+
+#titulo {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#km {
+  width: 300px; 
+  font-family: 'Abel', sans-serif;
+  }
+
+#gas {
+  font-family: 'Abel', sans-serif;
+  width: 300px;
+}
